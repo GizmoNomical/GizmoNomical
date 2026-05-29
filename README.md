@@ -44,6 +44,7 @@ Actively used and tested in a live multiplayer server with persistent player pro
 
 ### [Taxov](https://github.com/GizmoNomical/Taxov) - C# Web Application / SaaS Platform / Stripe Subscriptions  (ASP.NET / Blazor / Razor)
 *Previously hosted on a dedicated IIS Platform using MySQL Database*
+
 Medium-scale C# application (5000+ Lines of Code) and SaaS platform focused on reverse-engineering and modeling Escape from Tarkov market tax systems.
 
 *A niche but very helpful tool for players to get the most return from their time investment while selling in-game goods and items.*
@@ -114,10 +115,10 @@ Demonstrates state machine design, real-time system orchestration, and dynamic e
 
 ---
 
-### [Fatigue & Sleep Deprivation System](https://github.com/GizmoNomical/GN84-FDB) - Project Zombiod - Multiplayer Server Mod (Lua)
+### [Fatigue & Sleep Deprivation System](https://github.com/GizmoNomical/GN84-FDB) - Project Zomboid - Multiplayer Server Mod (Lua)
 Custom gameplay system designed to track player behavior and enforce fatigue mechanics over time.
 
-Eliminates a common issue on Multiplayer Servers where players expliot and avoid large portions of game/server balance.
+Eliminates a common issue on Multiplayer Servers where players exploit and avoid large portions of game/server balance.
 
 **Key Features:**
 - Tracks time since last sleep and applies progressive penalties  
