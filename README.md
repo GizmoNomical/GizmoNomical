@@ -17,33 +17,37 @@ Experience designing and maintaining systems for live multiplayer environments, 
 
 ## Featured Projects & Systems
 
-### GN84-WNDR Core Platform (Private / Proprietary)
+### GN84-WNDR Core Platform - Project Zomboid - Multiplayer Server Mod (Lua)
+Live Server "The Wanderers" - ~20+ Concurrent Players, ~36+ Months Uptime
+[github.com/GizmoNomical/GN84-WNDR]
+
 Primary backend and systems platform powering a live multiplayer server environment, supporting gameplay infrastructure, economy systems, admin tooling, and performance-optimized real-time systems.
 
 Actively used and tested in a live multiplayer server with persistent player progression, economy systems, and world state.
 
 **Key Features:**
 - Client-server synchronization with server-authoritative state handling  
-- Lock-state and timeout logic to manage shared multiplayer interactions  
+- Lock-state and timeout logic to prevent race conditions on shared world entities
 - Persistent world and object data using ModData  
 - Recycler system with anti-desync safeguards and concurrency protection  
-- Persistent audio emitter system with recovery and distance-based cleanup  
-- Dual-currency economy with bank balances, itemized currency, and shop workflows  
-- Money Clip system for deposits, withdrawals, balance tracking, and stack consolidation  
+- Persistent audio emitter system with recovery and distance-based cleanup and syncing 
+- Designed a Dual-Currency Economy with transactional balance updates and audit logging, persisted via ModData across server restarts
+- Designed a Money Clip system for deposits, withdrawals, balance tracking, and currency consolidation  
 - Admin tools for economy control, token management, and configuration workflows  
 
 **Technical Highlights:**
-- Designed for reliability and consistency in live multiplayer environments  
-- Event-driven architecture to reduce unnecessary polling and improve performance  
+- Built server-authoritative state synchronization across 20+ connected clients, eliminating desync exploits common in player-run servers
+- Event-driven architecture to reduce unnecessary server-polling, reducing server tick load as player count scales
 - Solves synchronization, ownership, and shared-state challenges across clients  
 - Integrates gameplay systems, UI workflows, economy infrastructure, and admin tooling into a unified core platform  
 
-*Core implementation remains private due to proprietary server systems.*
-
 ---
 
-### Taxov (C# Application / SaaS Platform)
+### Taxov - C# Web Application / SaaS Platform / Stripe Subscriptions  (ASP.NET / Blazor / Razor)
+[github.com/GizmoNomical/Taxov]
 Large-scale C# application and SaaS platform focused on reverse-engineering and modeling Escape from Tarkov market tax systems.
+
+A niche but very helpful tool for players to get the most return from their time investment while selling in-game goods and items.
 
 **Key Features:**
 - Reverse engineered complex in-game tax calculations into accurate, reusable logic models  
@@ -54,15 +58,17 @@ Large-scale C# application and SaaS platform focused on reverse-engineering and 
 
 **Technical Highlights:**
 - Combines backend computation, business logic, and user interface design into a cohesive application  
-- Implements real-world payment workflows and subscription management  
+- Implements real-world payment workflows and subscription management through Stripe
 - Handles dynamic input, calculation pipelines, and result visualization  
-- Designed for practical use with active users, supporting real-time pricing decisions and live data interaction  
+- Designed for practical use with active users, supporting real-time pricing decisions and live data interaction
+- Allows users to easily see the best choices possible for their in-game markets
 
 Demonstrates full application development, backend logic design, data processing, and real-world system integration.
 
 ---
 
-### Zombie Whisperer (Real-Time Admin Control System)
+### Zombie Whisperer - Project Zomboid - Real-Time Admin Control System (Lua)
+[github.com/GizmoNomical/GN84-ZW]
 Advanced real-time control tool designed for live multiplayer environments, enabling precise manipulation of zombie behavior and world state.
 
 Includes unique capability to locate and interact with reanimated player entities, solving a previously unaddressed gameplay limitation in multiplayer environments.
@@ -85,8 +91,11 @@ Demonstrates real-time system control, multiplayer command architecture, and adv
 
 ---
 
-### Blood Moon System (Dynamic Event Engine)
+### Blood Moon System - Project Zomboid - Dynamic Event Engine (Lua)
+[github.com/GizmoNomical/GN84-BM]
 State-driven real-time event system designed to deliver scalable, high-intensity gameplay experiences.
+
+This is a custom event system which makes an already terrifying game even more terrifying!
 
 **Key Features:**
 - Finite State Machine managing event lifecycle (growth, peak, eye, decay, etc.)  
@@ -104,12 +113,13 @@ State-driven real-time event system designed to deliver scalable, high-intensity
 
 Demonstrates state machine design, real-time system orchestration, and dynamic environment simulation, while creating high-impact emergent gameplay through controlled environmental and behavioral systems.
 
-*Core implementation remains private due to proprietary server systems.*
-
 ---
 
-### Fatigue & Sleep Deprivation System (GN84-FDB)
+### Fatigue & Sleep Deprivation System - Project Zombiod - Multiplayer Server Mod (Lua)
+[github.com/GizmoNomical/GN84-FDB]
 Custom gameplay system designed to track player behavior and enforce fatigue mechanics over time.
+
+Eliminates a common issue on Multiplayer Servers where players expliot and avoid large portions of game/server balance.
 
 **Key Features:**
 - Tracks time since last sleep and applies progressive penalties  
@@ -121,7 +131,9 @@ Demonstrates state tracking, progression systems, and rule-based logic design.
 
 ---
 
-### Admin Tools & Debug Systems (GN84-WDT)
+### Admin Tools & Debug Systems - Project Zomboid - Multiplayer Admin Toolset
+[github.com/GizmoNomical/GN84-WDT]
+
 Utility systems designed to improve server administration and debugging workflows.
 
 **Key Features:**
