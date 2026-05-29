@@ -17,9 +17,8 @@ Experience designing and maintaining systems for live multiplayer environments, 
 
 ## Featured Projects & Systems
 
-### GN84-WNDR Core Platform - Project Zomboid - Multiplayer Server Mod (Lua)
-Live Server "The Wanderers" - ~20+ Concurrent Players, ~36+ Months Uptime
-[github.com/GizmoNomical/GN84-WNDR]
+### [GN84-WNDR Core Platform](github.com/GizmoNomical/GN84-WNDR) - Project Zomboid - Multiplayer Server Mod (Lua)
+*Live Server "The Wanderers" - ~20+ Concurrent Players, ~36+ Months Uptime*
 
 Primary backend and systems platform powering a live multiplayer server environment, supporting gameplay infrastructure, economy systems, admin tooling, and performance-optimized real-time systems.
 
@@ -43,11 +42,11 @@ Actively used and tested in a live multiplayer server with persistent player pro
 
 ---
 
-### Taxov - C# Web Application / SaaS Platform / Stripe Subscriptions  (ASP.NET / Blazor / Razor)
-[github.com/GizmoNomical/Taxov]
+### [Taxov](github.com/GizmoNomical/Taxov) - C# Web Application / SaaS Platform / Stripe Subscriptions  (ASP.NET / Blazor / Razor)
+
 Large-scale C# application and SaaS platform focused on reverse-engineering and modeling Escape from Tarkov market tax systems.
 
-A niche but very helpful tool for players to get the most return from their time investment while selling in-game goods and items.
+*A niche but very helpful tool for players to get the most return from their time investment while selling in-game goods and items.*
 
 **Key Features:**
 - Reverse engineered complex in-game tax calculations into accurate, reusable logic models  
@@ -67,11 +66,11 @@ Demonstrates full application development, backend logic design, data processing
 
 ---
 
-### Zombie Whisperer - Project Zomboid - Real-Time Admin Control System (Lua)
-[github.com/GizmoNomical/GN84-ZW]
+### [Zombie Whisperer](github.com/GizmoNomical/GN84-ZW) - Project Zomboid - Real-Time Admin Control System (Lua)
+
 Advanced real-time control tool designed for live multiplayer environments, enabling precise manipulation of zombie behavior and world state.
 
-Includes unique capability to locate and interact with reanimated player entities, solving a previously unaddressed gameplay limitation in multiplayer environments.
+*Includes unique capability to locate and interact with reanimated player entities, solving a previously unaddressed gameplay limitation in multiplayer environments.*
 
 **Key Features:**
 - Radius-based zombie attraction, spawning, and removal using mouse-targeted input  
@@ -91,11 +90,11 @@ Demonstrates real-time system control, multiplayer command architecture, and adv
 
 ---
 
-### Blood Moon System - Project Zomboid - Dynamic Event Engine (Lua)
-[github.com/GizmoNomical/GN84-BM]
+### [Blood Moon System](github.com/GizmoNomical/GN84-BM) - Project Zomboid - Dynamic Event Engine (Lua)
+
 State-driven real-time event system designed to deliver scalable, high-intensity gameplay experiences.
 
-This is a custom event system which makes an already terrifying game even more terrifying!
+*This is a custom event system which makes an already scary game even more terrifying!*
 
 **Key Features:**
 - Finite State Machine managing event lifecycle (growth, peak, eye, decay, etc.)  
@@ -115,8 +114,7 @@ Demonstrates state machine design, real-time system orchestration, and dynamic e
 
 ---
 
-### Fatigue & Sleep Deprivation System - Project Zombiod - Multiplayer Server Mod (Lua)
-[github.com/GizmoNomical/GN84-FDB]
+### [Fatigue & Sleep Deprivation System](github.com/GizmoNomical/GN84-FDB) - Project Zombiod - Multiplayer Server Mod (Lua)
 Custom gameplay system designed to track player behavior and enforce fatigue mechanics over time.
 
 Eliminates a common issue on Multiplayer Servers where players expliot and avoid large portions of game/server balance.
@@ -131,8 +129,7 @@ Demonstrates state tracking, progression systems, and rule-based logic design.
 
 ---
 
-### Admin Tools & Debug Systems - Project Zomboid - Multiplayer Admin Toolset
-[github.com/GizmoNomical/GN84-WDT]
+### [Admin Tools & Debug Systems](github.com/GizmoNomical/GN84-WDT) - Project Zomboid - Multiplayer Admin Toolset
 
 Utility systems designed to improve server administration and debugging workflows.
 
