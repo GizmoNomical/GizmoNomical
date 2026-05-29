@@ -17,7 +17,7 @@ Experience designing and maintaining systems for live multiplayer environments, 
 
 ## Featured Projects & Systems
 
-### [GN84-WNDR Core Platform](github.com/GizmoNomical/GN84-WNDR) - Project Zomboid - Multiplayer Server Mod (Lua)
+### [GN84-WNDR Core Platform](https://github.com/GizmoNomical/GN84-WNDR) - Project Zomboid - Multiplayer Server Mod (Lua)
 *Live Server "The Wanderers" - ~20+ Concurrent Players, ~36+ Months Uptime*
 
 Primary backend and systems platform powering a live multiplayer server environment, supporting gameplay infrastructure, economy systems, admin tooling, and performance-optimized real-time systems.
@@ -42,7 +42,7 @@ Actively used and tested in a live multiplayer server with persistent player pro
 
 ---
 
-### [Taxov](github.com/GizmoNomical/Taxov) - C# Web Application / SaaS Platform / Stripe Subscriptions  (ASP.NET / Blazor / Razor)
+### [Taxov](https://github.com/GizmoNomical/Taxov) - C# Web Application / SaaS Platform / Stripe Subscriptions  (ASP.NET / Blazor / Razor)
 
 Large-scale C# application and SaaS platform focused on reverse-engineering and modeling Escape from Tarkov market tax systems.
 
@@ -66,7 +66,7 @@ Demonstrates full application development, backend logic design, data processing
 
 ---
 
-### [Zombie Whisperer](github.com/GizmoNomical/GN84-ZW) - Project Zomboid - Real-Time Admin Control System (Lua)
+### [Zombie Whisperer](https://github.com/GizmoNomical/GN84-ZW) - Project Zomboid - Real-Time Admin Control System (Lua)
 
 Advanced real-time control tool designed for live multiplayer environments, enabling precise manipulation of zombie behavior and world state.
 
@@ -90,7 +90,7 @@ Demonstrates real-time system control, multiplayer command architecture, and adv
 
 ---
 
-### [Blood Moon System](github.com/GizmoNomical/GN84-BM) - Project Zomboid - Dynamic Event Engine (Lua)
+### [Blood Moon System](https://github.com/GizmoNomical/GN84-BM) - Project Zomboid - Dynamic Event Engine (Lua)
 
 State-driven real-time event system designed to deliver scalable, high-intensity gameplay experiences.
 
@@ -114,7 +114,7 @@ Demonstrates state machine design, real-time system orchestration, and dynamic e
 
 ---
 
-### [Fatigue & Sleep Deprivation System](github.com/GizmoNomical/GN84-FDB) - Project Zombiod - Multiplayer Server Mod (Lua)
+### [Fatigue & Sleep Deprivation System](https://github.com/GizmoNomical/GN84-FDB) - Project Zombiod - Multiplayer Server Mod (Lua)
 Custom gameplay system designed to track player behavior and enforce fatigue mechanics over time.
 
 Eliminates a common issue on Multiplayer Servers where players expliot and avoid large portions of game/server balance.
@@ -129,7 +129,7 @@ Demonstrates state tracking, progression systems, and rule-based logic design.
 
 ---
 
-### [Admin Tools & Debug Systems](github.com/GizmoNomical/GN84-WDT) - Project Zomboid - Multiplayer Admin Toolset
+### [Admin Tools & Debug Systems](https://github.com/GizmoNomical/GN84-WDT) - Project Zomboid - Multiplayer Admin Toolset
 
 Utility systems designed to improve server administration and debugging workflows.
 
