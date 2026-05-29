@@ -6,7 +6,7 @@ Experience designing and maintaining systems for live multiplayer environments, 
 
 ---
 
-## 🔧 Core Focus Areas
+## Core Focus Areas
 - Client-server architecture
 - Multiplayer synchronization
 - Event-driven systems
@@ -15,7 +15,7 @@ Experience designing and maintaining systems for live multiplayer environments, 
 
 ---
 
-## 🚀 Featured Projects & Systems
+## Featured Projects & Systems
 
 ### GN84-WNDR Core Platform (Private / Proprietary)
 Primary backend and systems platform powering a live multiplayer server environment, supporting gameplay infrastructure, economy systems, admin tooling, and performance-optimized real-time systems.
@@ -133,7 +133,7 @@ Demonstrates tooling development, workflow optimization, and system-level visibi
 
 ---
 
-## 🧠 Concepts Demonstrated
+## Concepts Demonstrated
 - Systems Design
 - Client-Server Architecture
 - Multiplayer Synchronization
@@ -142,17 +142,17 @@ Demonstrates tooling development, workflow optimization, and system-level visibi
 - State Persistence
 - Real-Time Systems
 
-## ⚙️ Development Approach
+## Development Approach
 - Focus on event-driven design to minimize performance overhead  
 - Prefer server-authoritative systems for consistency and synchronization  
 - Emphasis on scalable, reusable architecture and maintainable systems  
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 Lua (Kahlua), C#, Java, Git
 
 ---
 
-## 📫 Contact
+## Contact
 LinkedIn: https://www.linkedin.com/in/bret-elliott-192b913a7
