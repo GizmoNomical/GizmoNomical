@@ -15,7 +15,7 @@ Experience designing and maintaining systems for live multiplayer environments, 
 
 ---
 
-## Featured Projects & Systems
+## Featured Projects, Game Mods, Tools & Systems
 
 ### [GN84-WNDR Core Platform](https://github.com/GizmoNomical/GN84-WNDR) - Project Zomboid - Multiplayer Server Mod (Lua)
 *Live Server "The Wanderers" - ~20+ Concurrent Players, ~36+ Months Uptime*
@@ -43,8 +43,8 @@ Actively used and tested in a live multiplayer server with persistent player pro
 ---
 
 ### [Taxov](https://github.com/GizmoNomical/Taxov) - C# Web Application / SaaS Platform / Stripe Subscriptions  (ASP.NET / Blazor / Razor)
-
-Large-scale C# application and SaaS platform focused on reverse-engineering and modeling Escape from Tarkov market tax systems.
+*Previously hosted on a dedicated IIS Platform using MySQL Database*
+Medium-scale C# application (5000+ Lines of Code) and SaaS platform focused on reverse-engineering and modeling Escape from Tarkov market tax systems.
 
 *A niche but very helpful tool for players to get the most return from their time investment while selling in-game goods and items.*
 
