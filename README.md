@@ -129,7 +129,7 @@ Demonstrates state tracking, progression systems, and rule-based logic design.
 
 ---
 
-### [Admin Tools & Debug Systems](https://github.com/GizmoNomical/GN84-WDT) - Project Zomboid - Multiplayer Admin Toolset
+### [Admin Tools & Debug Systems](https://github.com/GizmoNomical/GN84-WDT) - Project Zomboid - Multiplayer Admin Toolset (Lua)
 
 Utility systems designed to improve server administration and debugging workflows.
 
