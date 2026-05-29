@@ -45,7 +45,7 @@ Actively used and tested in a live multiplayer server with persistent player pro
 ### [Taxov](https://github.com/GizmoNomical/Taxov) - C# Web Application / SaaS Platform / Stripe Subscriptions  (ASP.NET / Blazor / Razor)
 *Previously hosted on a dedicated IIS Platform using MySQL Database*
 
-Medium-scale C# application (5000+ Lines of Code) and SaaS platform focused on reverse-engineering and modeling Escape from Tarkov market tax systems.
+Medium-scale C# SaaS Web Application (5,000+ lines of code) featuring OAuth authentication, Stripe subscription management, payment processing, and real-time calculation services for Escape from Tarkov players.
 
 *A niche but very helpful tool for players to get the most return from their time investment while selling in-game goods and items.*
 
